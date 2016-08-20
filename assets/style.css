@@ -1,0 +1,181 @@
+
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+
+body{
+    background-color:#c3c3c3; 
+}
+
+.navbar{
+    background-color:#000; 
+    font-family: 'Orbitron', sans-serif; 
+    border:none; 
+    opacity: .9; 
+    
+    
+}
+
+.navbar-brand {
+    width:100%;
+    padding: 0px;
+    height:70px;  
+}
+
+.navbar-brand img{
+    width:70%; 
+    
+}
+
+.dropdown-menu{
+    opacity:.9; 
+}
+
+.login{
+    color:#000;
+    font-family: sans-serif; 
+    padding:10px; 
+}
+
+#btn-login{
+    margin:5%; 
+}
+
+
+.jumbotron{
+    text-align: center; 
+    padding:40px; 
+    margin-top:8%; 
+}
+
+
+
+.jumbotron h1{
+    color:rgb(255, 60, 175); 
+    font-family: 'Orbitron', cursive; 
+    
+}
+
+.jumbotron img{
+    width:25em; 
+    display:inline-block; 
+}
+
+#talkbubble {
+   width: 15em;
+    padding:1em; 
+   height: 100px;
+   background-color:palevioletred; 
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+    display:inline-block; 
+    color:#FFF; 
+    font-family:'Orbitron' , sans-serif; 
+}
+#talkbubble:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid palevioletred ;
+   border-bottom: 13px solid transparent;
+}
+
+.btn {
+    background-color:palevioletred; 
+    font-family: 'Orbitron', sans-serif; 
+}
+
+.thumbnail{
+    background-color: #eee; 
+    padding:15px; 
+    
+}
+
+.row{
+    margin:1.275em;
+}
+
+.shows img{
+    width:25em;
+    height:30em; 
+}
+
+.shows{
+    margin:.175em;
+}
+
+.content{
+    margin:2.5%; 
+    padding:1.25em;
+    background-color:#eee;
+}
+
+.media img{
+    width:18.75em;
+}
+
+.media p{
+    padding:15px; 
+}
+
+.media-sub{
+    text-align:left;
+}
+
+.media-sub img{
+    width:12.5em; 
+    margin:1%; 
+    
+}
+
+.media-sub img:hover{
+    cursor:pointer; 
+}
+
+footer{
+    background-color:#000; 
+    text-align: center; 
+    font-size:1.5em ; 
+    font-family: 'Orbitron', sans-serif; 
+    padding:35px; 
+    color:rgb(255, 60, 175); 
+    
+}
+footer img{
+    width:15px; 
+    height:15px; 
+}
+
+
+@media screen and (max-width:780px){
+    .navbar-brand{
+        width:50%; 
+        height:50%; 
+    }
+    
+    .jumbotron img{
+        width:50%; 
+        height:50%; 
+    }
+}
+
+}
+
+@media screen and (max-width:900px){
+    .media-body{
+        display:block; 
+        width:100%; 
+        
+    }
+}
+
+
+
+
+
+
+
